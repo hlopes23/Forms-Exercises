@@ -43,7 +43,6 @@ h1{
 
 
 #cell{
-    display: flex;
     width: 15%;
     background-color: transparent;
     border: none;
@@ -51,12 +50,7 @@ h1{
 }
 
 
-#gender{
-display: flex;
-}
-
 #email{
-    display: flex;
     width: 100%;
     background-color: transparent;
     border: none;
@@ -64,7 +58,6 @@ display: flex;
 }
 
 #password{
-    display: flex;
     width: 100%;
     background-color: transparent;
     border: none;
@@ -72,14 +65,10 @@ display: flex;
 }
 
 #hobbies{
-    display: block;
     background-color: transparent;
     color: green
 }
 
-#age{
-    display: inline-block;
-}
 
 #submit{
     margin-top: 40%;
