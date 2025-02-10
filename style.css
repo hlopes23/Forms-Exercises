@@ -8,7 +8,7 @@ h1{
     height: 270px;
     width: 600px;
     border-radius: 10px;
-    padding: 1%;
+    padding: 1.1%;
 }
 
 .formbody{
@@ -25,7 +25,7 @@ h1{
 
 .line{
     display: flex;
-    margin: 1.5%
+    margin: 1.4%
 }
 
 .line2{
