@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mindera School Application Form</h1>
+    <section class="form">
+      <article class="formbody">
+        <form class="content">
+            <div class="line">
+          <label for="name">Name: </label>
+          <input type="text" id="name" title="Only letters. No numbers nor special characters." pattern="^[a-zA-Z]+$" />
+        </div>
+        <div class="line">
+          <label for="cell">Cell Phone: +351 </label>
+          <input type="text" id="cell" title="Only digits. Starting with 9" pattern="^9\d{8}$" />
+        </div>
+        <div class="line">
+          <label for="gender">Sexo: </label>
+          <input type="radio" name="gender"> Feminino </input> 
+          <input type="radio" name="gender"> Masculino </input>
+        </div>
+        <div class="line">
+          <label for="email">Email: </label>
+          <input type="text" id="email" />
+        </div>
+        <div class="line">
+          <label for="password">Password: </label>
+          <input type="password" id="password" placeholder="Minimum eight characters" />
+        </div>
+        <div class="line">
+          <label for="hobbies">Hobbies: </label>
+          <input type="checkbox" name="hobbies"> Music </input>
+          <input type="checkbox" name="hobbies"> Cinema </input>
+          <input type="checkbox" name="hobbies"> Dance </input>
+          <input type="checkbox" disabled ="hobbies"> Photography </input>
+        </div>
+        <div class="line">
+          <label for="age">Age: </label>
+          <input type="range" id="age" />
+        </div>
+        <div class="line2">
+        <div>
+            <label for="submit"></label>
+            <input type="submit" id="submit">
+        </div>
+    </div>
+        </form>
+      </article>
+    </section>
+  </body>
+</html>

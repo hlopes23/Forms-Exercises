@@ -1,0 +1,95 @@
+h1{
+  font-family:sans-serif;
+  font-size: large;
+}
+
+.form{
+    background-color: rgb(254, 244, 202);
+    height: 270px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.formbody{
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.content{
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: medium;
+}
+
+.line{
+    display: flex;
+    margin: 1%
+}
+
+.line2{
+    display: flex;
+    margin: 0.8%;
+    justify-content: center;
+}
+
+#name{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+
+#cell{
+    display: flex;
+    width: 15%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+
+#gender{
+display: flex;
+}
+
+#email{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+#password{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid black;
+}
+
+#hobbies{
+    display: block;
+    background-color: transparent;
+    color: green
+}
+
+#age{
+    display: inline-block;
+}
+
+#submit{
+    margin-top: 40%;
+    color: sandybrown;
+    background-color: rgb(248, 227, 199);
+    border: 0.5px solid sandybrown;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submit:hover{
+    scale: 1.1;
+}
