@@ -25,7 +25,7 @@ h1{
 
 .line{
     display: flex;
-    margin: 1.4%
+    margin: 1.5%
 }
 
 .line2{
@@ -64,14 +64,9 @@ h1{
     border-bottom: 0.5px solid black;
 }
 
-#hobbies{
-    background-color: transparent;
-    color: green
-}
-
 
 #submit{
-    margin-top: 40%;
+    margin-top: 25%;
     color: sandybrown;
     background-color: rgb(248, 227, 199);
     border: 0.5px solid sandybrown;
