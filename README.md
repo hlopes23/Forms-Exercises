@@ -1,6 +1,6 @@
 # Forms Exercises
 
-This project contains an exercise focused on building and validating a form using modern HTML and CSS.
+This project contains an exercise focused on building and validating a form using HTML and CSS.
 
 ## Contents
 
